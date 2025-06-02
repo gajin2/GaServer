@@ -1,0 +1,32 @@
+syntax = "proto3";
+package pb;
+
+enum ServerType {
+    ServerType_None = 0;
+    ServerType_Center = 1;
+    ServerType_Game = 2;
+    ServerType_Silo = 3;
+    ServerType_World = 4;
+}
+
+enum ServerProto {
+    ServerProto_Heart = 0; // 心跳
+    ServerProto_Reg = 1;
+    ServerProto_ServerConnectCenter = 2;
+    ServerProto_ServerDisconnectCenter = 3;
+    ServerProto_ToWorldGameList = 4;
+}
+
+message ServerReg {
+    int32 server_id = 1;
+    string server_name = 2;
+    string server_cluster = 3;
+    int32 server_type = 4;
+    string host = 5;    // world to game
+    int32 port = 6;     // world to game
+}
+
+message ServerGameList {
+    repeated ServerReg game_list = 1;
+    repeated ServerReg silo_list = 2;
+}

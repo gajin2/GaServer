@@ -1,0 +1,15 @@
+{
+  "GaOptions": {
+    "ServerId": 1001,
+    "ServerName": "Ga.Center1",
+    "ServerCluster": "Ga.Cluster1",
+    "ServerPort": 5001
+  },
+  "ConnectionStrings": {
+    "Orleans": "Host=localhost;Username=postgres;Password=12345678;Database=ga_orleans",
+    "Database": "Host=localhost;Username=postgres;Password=12345678;Database=ga_server"
+  },
+  "Serilog": {
+    "MinimumLevel": "Debug"
+  }
+}
