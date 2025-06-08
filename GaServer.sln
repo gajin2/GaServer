@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ga.Common", "Ga.Common\Ga.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ga.Center", "Ga.Center\Ga.Center.csproj", "{360CA0B5-E319-497C-AD9B-D46B98A50ECD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ga.Silo", "Ga.Silo\Ga.Silo.csproj", "{A9BA38E8-DE9E-425B-8DDB-28D2F75382BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{360CA0B5-E319-497C-AD9B-D46B98A50ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{360CA0B5-E319-497C-AD9B-D46B98A50ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{360CA0B5-E319-497C-AD9B-D46B98A50ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9BA38E8-DE9E-425B-8DDB-28D2F75382BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9BA38E8-DE9E-425B-8DDB-28D2F75382BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9BA38E8-DE9E-425B-8DDB-28D2F75382BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9BA38E8-DE9E-425B-8DDB-28D2F75382BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

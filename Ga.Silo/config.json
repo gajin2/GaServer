@@ -1,0 +1,25 @@
+{
+  "GaOptions": {
+    "ServerId": 3001,
+    "ServerName": "Ga.Silo1",
+    "ServerCluster": "Ga.Cluster1",
+    "ServerPort": 3001
+  },
+  "ConnectionStrings": {
+    "Orleans": "Host=localhost;Username=postgres;Password=12345678;Database=ga_orleans",
+    "Database": "Host=localhost;Username=postgres;Password=12345678;Database=ga_server"
+  },
+  "CenterOptions": {
+    "Host": "127.0.0.1",
+    "Port": 5001
+  },
+  "OrleansOptions": {
+    "ClusterId": "Ga.Cluster1",
+    "ServiceId": "Ga.Silo1",
+    "SiloPort": 11111,
+    "GatewayPort": 30001
+  },
+  "Serilog": {
+    "MinimumLevel": "Debug"
+  }
+}

@@ -11,6 +11,7 @@ public class ServerService
     private const int NetIdMax = 256;
 
     public readonly GaOptions Options = new();
+    public readonly CenterOptions CenterOptions  = new();
 
     public int ServerId => Options.ServerId;
     public string ServerName => Options.ServerName;

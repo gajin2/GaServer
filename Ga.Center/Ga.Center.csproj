@@ -15,4 +15,10 @@
       <ProjectReference Include="..\Ga.Common\Ga.Common.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Update="config.json">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>
