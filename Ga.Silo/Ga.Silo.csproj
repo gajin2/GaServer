@@ -13,6 +13,8 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Ga.Common\Ga.Common.csproj" />
+      <ProjectReference Include="..\Ga.GrainInterface\Ga.GrainInterface.csproj" />
+      <ProjectReference Include="..\Ga.Grains\Ga.Grains.csproj" />
     </ItemGroup>
 
     <ItemGroup>

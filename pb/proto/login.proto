@@ -1,0 +1,46 @@
+syntax = "proto3";
+package pb;
+
+enum LoginProto {
+    LoginProto_None = 0;
+    LoginProto_ReqLoginUser = 200;
+    LoginProto_RspLoginUser = 201;
+
+    // Test or else
+
+    LoginProto_ReqHello = 250;
+    LoginProto_RspHello = 251;
+
+    LoginProto_ReqPing = 252;
+    LoginProto_RspPong = 253;
+}
+
+enum LoginResult {
+    LoginResult_Ok = 0;
+    LoginResult_BadOpenId = 1;
+    LoginResult_NoUser = 2;
+}
+
+message ReqLoginUser {
+    string open_id = 1;
+}
+
+message RspLoginUser {
+    LoginResult result = 1;
+}
+
+message ReqHello {
+    string msg = 1;
+}
+
+message RspHello {
+    string msg = 1;
+}
+
+message ReqPing {
+    string msg = 1;
+}
+
+message RspPong {
+    string msg = 1;
+}

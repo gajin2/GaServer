@@ -9,6 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ga.Center", "Ga.Center\Ga.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ga.Silo", "Ga.Silo\Ga.Silo.csproj", "{A9BA38E8-DE9E-425B-8DDB-28D2F75382BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ga.GrainInterface", "Ga.GrainInterface\Ga.GrainInterface.csproj", "{5D1A4D54-B360-4503-8EEE-34B2A0219AE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ga.Game", "Ga.Game\Ga.Game.csproj", "{3500BAF7-7BE8-40E5-8A66-899F018A224C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ga.Grains", "Ga.Grains\Ga.Grains.csproj", "{5E619A71-A926-49BF-8DC7-7F741101CDA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ga.TestClient", "Ga.TestClient\Ga.TestClient.csproj", "{F8F1155E-0808-403C-B1AD-5370A2FF0ADA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +38,21 @@ Global
 		{A9BA38E8-DE9E-425B-8DDB-28D2F75382BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9BA38E8-DE9E-425B-8DDB-28D2F75382BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9BA38E8-DE9E-425B-8DDB-28D2F75382BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D1A4D54-B360-4503-8EEE-34B2A0219AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D1A4D54-B360-4503-8EEE-34B2A0219AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D1A4D54-B360-4503-8EEE-34B2A0219AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D1A4D54-B360-4503-8EEE-34B2A0219AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3500BAF7-7BE8-40E5-8A66-899F018A224C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3500BAF7-7BE8-40E5-8A66-899F018A224C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3500BAF7-7BE8-40E5-8A66-899F018A224C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3500BAF7-7BE8-40E5-8A66-899F018A224C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E619A71-A926-49BF-8DC7-7F741101CDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E619A71-A926-49BF-8DC7-7F741101CDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E619A71-A926-49BF-8DC7-7F741101CDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E619A71-A926-49BF-8DC7-7F741101CDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F1155E-0808-403C-B1AD-5370A2FF0ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F1155E-0808-403C-B1AD-5370A2FF0ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F1155E-0808-403C-B1AD-5370A2FF0ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F1155E-0808-403C-B1AD-5370A2FF0ADA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

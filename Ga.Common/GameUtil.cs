@@ -35,11 +35,13 @@ public static class GameUtil
         string logPath = logDir + Path.DirectorySeparatorChar + logFile;
         Log.Information($"Log={logPath}");
 
+        bool buffered = !IsWin();
+
         Log.Logger = new LoggerConfiguration()
             .ReadFrom.Configuration(GetConfiguration())
             .WriteTo.Console()
             .WriteTo.Async(a =>
-                a.File(logPath, rollingInterval: RollingInterval.Day, fileSizeLimitBytes: null, buffered: false))
+                a.File(logPath, rollingInterval: RollingInterval.Day, fileSizeLimitBytes: null, buffered: buffered))
             .CreateLogger();
     }
 
